@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: ContextManager 上下文管理器的正确打开方式
@@ -28,6 +27,8 @@ categories:
 | Context Manager             | 上下文管理器  | 负责执行 with 语句块上下文中的进入与退出操作                |
 | runtime context             | 运行时上下文  | __enter__() 方法在语句体执行之前进入运行时上下文，__exit__() 在语句体执行完后从运行时上下文退出 |
 | with-body                   | 语句体     | with 语句包裹起来的代码块，在执行语句体之前会调用上下文管理器的 __enter__() 方法，执行完语句体之后会执行 __exit__() 方法 |
+
+
 
 ## 语法&工作原理
 ### with语句的语法格式
